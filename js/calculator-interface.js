@@ -7,7 +7,7 @@ $(document).ready(function(){
 $(document).ready(function() {
   $('#ageForm').submit(function(event) {
     event.preventDefault();
-    var age = $('#age').val();
+    var age = parseInt($('#age').val());
     var personalCalc = new Calculator(age);
     console.log(personalCalc);
     $('#solution').append('<li>'+'Your age is '+ personalCalc.age +'</li>');

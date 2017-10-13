@@ -1,9 +1,9 @@
 import { Calculator } from './../js/calculator.js';
-var sample = new Calculator('22');
+var sample = new Calculator(22);
 
 describe('Calculator', function () {
   it('should have an age', function () {
-    expect(sample.age).toEqual('22');
+    expect(sample.age).toEqual(22);
   });
 
 });
