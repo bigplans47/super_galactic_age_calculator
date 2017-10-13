@@ -1,10 +1,10 @@
-import { Calculator } from './../js/calculator.js'
+import { Calculator } from './../js/calculator.js';
 
 $(document).ready(function() {
   $('#ageForm').submit(function(event) {
     event.preventDefault();
     var age = $('#age').val();
-    var personalCalc = new Calculator(age)
+    var personalCalc = new Calculator(age);
     console.log(personalCalc);
     $('#solution').append('<li>'+'Your age is '+ personalCalc.age +'</li>');
 
