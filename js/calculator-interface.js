@@ -1,5 +1,9 @@
 import { Calculator } from './../js/calculator.js';
 
+$(document).ready(function(){
+  $('#time').text(moment());
+});
+
 $(document).ready(function() {
   $('#ageForm').submit(function(event) {
     event.preventDefault();

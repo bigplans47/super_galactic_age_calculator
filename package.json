@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "jasmine"
+  },
+  "scripts": {
     "test": "karma start karma.conf.js"
   },
   "author": "",
