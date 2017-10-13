@@ -31,7 +31,7 @@ tbd.
 
 Technologies Used
 
-Javascript, Bootstrap,HTML,jQuery, node.js
+Javascript, Bootstrap,HTML,jQuery, node.js, karma, jasmine, browserify
 
 Support and contact details
 
