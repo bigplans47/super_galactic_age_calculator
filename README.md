@@ -1,30 +1,37 @@
-A project that uses ActiveRecord to make a Web Application for adding stores and a Shoe Inventory in General and to specific Stores.
+A project that uses Javascript with a gulp file to make a Web Site to determine a user’s age based on a planet’s solar years.
 
-An application where employees can view, add, update and delete stores with shoes that they set up then assign to stores. Date of README: 10/1/2017
+An application where users can have their ages taken down to seconds and have different ages calculated for different planets as not all plans have 365 days in a solar year such as Mercury where a solar year is 88 days. Date of README: 10/13/2017
 
 Description
 
-There are the following features in the Project: Stores and Shoes are created with ActiveRecord, Stores have CRUD functionality with manually created Stores and Shoes. The Stores and Shoes have custom callbacks such as capitalizing first letters and validations to ensure blanks and duplicates are not submitted as well as words over 100 characters. There are custom classes, custom instance methods(plain) and custom instance variables(@), custom class methods(use word self). This allows the user to look at stores in a bullet list and assign shoe inventory to them, but clicking the link.
+There are the following features in the Project: Returns age of a person on Mercury, Venus, Mars, Jupiter and determines user life expectancy. There are custom classes and custom functions(plain).
 
 To Test Locally
 
-git clone https://github.com/bigplans47/ruby_catalogue_shoe_store.git to your desktop cd volunteer_tracker bundle to install all required gems rspec and the tests will be ran ruby app.rb will start a localhost server Visit localhost:4567 For a Live Version
+git clone https://github.com/bigplans47/super_galactic_age_calculator.git to your desktop cd super_galactic_age_calculator macbook to install all required packages run $npm install $bower install $gulp build $gulp serve and use the site that pops up. Then to see specs are passing run $npm test
 
 Visit https://tbd
 
 Specifications
 
-Write a program to track shoe brands and the stores they are in. Here are the user stories:
+Write an application that determines a user’s age based on a planet’s solar years:
 
-As a user, I want to be able to add, update, delete and list shoe stores. As a user, I want to be able to add and list new shoe brands. Shoe brands should include price. As a user, I want to be able to add shoe brands in the application (don't worry about updating, listing or destroying shoe brands). As a user, I want to be able to add existing shoe brands to a store to show where they are sold. As a user, I want to be able to associate the same brand of shoes with multiple stores. As a user, I want to be able to see all of the brands a store sells on the individual store page. As a user, I want store names and shoe brands to be saved with a capital letter no matter how I enter them. As a user, I want the price to be in currency format even if I just inputted a number. (In other words, typing in 50 should be updated to $50.00.) As a user, I do not want stores and/or shoe brands to be saved if I enter a blank name. As a user, I want all stores and brands to be unique. There shouldn't be two entries in the database for Blundstone. As a user, I want store and brand names to have a maximum of one hundred characters.
+Take a person’s age in years and convert it into seconds.
+Take two dates and determine the difference, in seconds, between the two. (This way a user can enter a birthdate and the application can compare the birthdate against the current time to come up with an accurate age.)
+Return the age of a human in Mercury years. (A Mercury year is .24 Earth years.)
+Return the age of a human in Venus years. (A Venus year is .62 Earth years.)
+Return the age of a human in Mars years. (A Mars year is 1.88 Earth years.)
+Return the age of a human in Jupiter years. (A Jupiter year is 11.86 Earth years.)
+Determine how many years a user has left to live on each planet… (yikes!) To do this, the application will have to calculate the user’s life expectancy. (Note that life expectancy shouldn’’t be a hard-coded value. After all, it can vary from country to country and depending on various demographics.)
+If a user has already surpassed the average life expectancy, your application should account for (and test) this possible outcome as well.
 
 Known Bugs
 
-Issues with non-integer numbers entered as a price with how user views that.
+tbd.
 
 Technologies Used
 
-Bootstrap,HTML,Ruby(ActiveRecord),Sinatra
+Javascript, Bootstrap,HTML,jQuery, node.js
 
 Support and contact details
 
