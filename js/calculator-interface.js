@@ -11,6 +11,7 @@ $(document).ready(function() {
     var personalCalc = new Calculator(age);
     console.log(personalCalc);
     $('#solution').append('<li>'+'Your age is '+ personalCalc.age +'</li>');
+    $('#solution').append('<li>'+'Your age in seconds is '+ personalCalc.ageSeconds +'</li>');
 
 
     // var output = simpleCalculator.pingPong(goal);

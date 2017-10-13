@@ -1,7 +1,7 @@
 export class Calculator {
   constructor(age) {
     this.age = age;
-    this.ageSeconds = 0;
+    this.ageSeconds = age*365*24*60*60;
 
   }
 
