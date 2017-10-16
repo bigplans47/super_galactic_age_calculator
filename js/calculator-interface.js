@@ -1,4 +1,4 @@
-// var moment = require('moment');
+var moment = require('moment');
 import { Calculator } from './../js/calculator.js';
 
 $(document).ready(function(){
@@ -10,7 +10,7 @@ $(document).ready(function() {
     event.preventDefault();
     var age = parseInt($('#age').val());
     var personalCalc = new Calculator(age);
-    console.log(personalCalc);
+    // console.log(personalCalc);
     $('#solution').append('<li>'+'Your age is '+ personalCalc.age +'</li>');
     $('#solution').append('<li>'+'Your age in seconds is '+ personalCalc.ageSeconds +'</li>');
 

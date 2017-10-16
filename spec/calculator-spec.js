@@ -9,7 +9,7 @@ describe('Calculator', function () {
 
   it('should be able to make a date with moment', function () {
     sample.makeBirthday('2/24/1989')
-    console.log(sample.birthDate)
+    // console.log(sample.birthDate)
     expect(sample.birthDate).toEqual('02/24/1989');
   });
 // makeDate(day, month, year)
