@@ -1,3 +1,4 @@
+// var moment = require('moment');
 import { Calculator } from './../js/calculator.js';
 
 $(document).ready(function(){

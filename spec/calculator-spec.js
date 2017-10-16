@@ -2,9 +2,18 @@ import { Calculator } from './../js/calculator.js';
 var sample = new Calculator(10);
 
 describe('Calculator', function () {
+
   it('should have an age in seconds', function () {
-    expect(sample.ageSeconds).toEqual(315360000);
+    expect(sample.ageSecondsRough).toEqual(315360000);
   });
+
+  it('should be able to make a date with moment', function () {
+    sample.makeBirthday('2/24/1989')
+    console.log(sample.birthDate)
+    expect(sample.birthDate).toEqual('02/24/1989');
+  });
+// makeDate(day, month, year)
+
 
 });
 

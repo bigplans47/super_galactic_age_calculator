@@ -18,6 +18,7 @@ var lib = require('bower-files')({
     }
   }
 });
+var moment = require('moment');
 var browserSync = require('browser-sync').create();
 
 
